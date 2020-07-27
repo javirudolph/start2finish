@@ -17,11 +17,12 @@ Most of the workflow relies on the [`usethis`](https://usethis.r-lib.org/) packa
 Perhaps this depends on the type of work you do, I'm not an expert and don't have particularly strong opinions. However, a package makes you follow certain conventions to keep things organized. I am a fan of writing functions in an R package and writing detailed documentation using the ['roxygen2'](https://roxygen2.r-lib.org/) package. Building a package is a nice way to keep things together, organized, and clear. Although I am sure that you can also create a chaotic package as well. 
 
 ---
-## The setup
+## The setup  
+Before you run these steps, make sure you have installed the following packages: `usethis`, `roxygen2`, `renv`, `here`. 
 
-1. install.packages('usethis')
-  * usethis::create_package("path/where/you/want/the/project")
-
+```r
+usethis::create_package("location where you want the package")
+```
 
 ---
 ## The workflow
