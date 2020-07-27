@@ -63,8 +63,12 @@ And then save the changes with
 ```r
 renv::snapshot()
 ```  
-After the snapshot, you can commit your changes, and push them to your repo so that your lockfile (`revn.lock`) is updated. Any time that new packages are loaded, you repeat these steps. 
-
+After the snapshot, you can commit your changes, and push them to your repo so that your lockfile (`revn.lock`) is updated. Any time that new packages are loaded, you repeat these steps.  
+You can create your first script, add a function with descriptions, and use `roxygen2` for that. You can find a short tutorial [here](https://javirudolph.github.io/RLadies-Gainesville-FL/20190429-Rudolph-packages/apr29presentation.html#1)
+```r
+usethis::use_r("name of your script")
+```  
+This setup is intended for you to take the leap, and get started. There are a number of resources out there, perhaps too many sometimes. If you'd like to jump over to "how do I write my manuscript in rmarkdown" you should definitely check out Anna Krystalli's [Reproduce a paper in Rmd](https://annakrystalli.me/rrtools-repro-research/paper.html) and follow some of the resources bellow.
 
 ---
 ## Some really good resources
