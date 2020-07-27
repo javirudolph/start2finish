@@ -23,7 +23,7 @@ Although you don’t need these two for setting up a project in R but maintainin
 ---
 ## The setup  
 Before you run these steps, make sure you have installed the following packages: `usethis`, `roxygen2`, `renv`, `here`. 
-1. Create the package, add a license if you want to, and if feeling adventurous you can create a GitHub repo for it. The reference functions for the `usethis` package can be found [here](https://usethis.r-lib.org/reference/index.html) 
+1. Create the package, add a license if you want to, and if feeling adventurous you can create a GitHub repo for it. The reference functions for the `usethis` package can be found [here](https://usethis.r-lib.org/reference/index.html). Running this function will open a new R session with your package! 
 ```r
 usethis::create_package("location where you want the package")
 ```
