@@ -16,14 +16,28 @@ Most of the workflow relies on the [`usethis`](https://usethis.r-lib.org/) packa
 ### Why packages and not just projects?  
 Perhaps this depends on the type of work you do, I'm not an expert and don't have particularly strong opinions. However, a package makes you follow certain conventions to keep things organized. I am a fan of writing functions in an R package and writing detailed documentation using the ['roxygen2'](https://roxygen2.r-lib.org/) package. Building a package is a nice way to keep things together, organized, and clear. Although I am sure that you can also create a chaotic package as well. 
 
+### Git and GitHub
+Although you don’t need these two for setting up a project in R but maintaining version control is highly recommended and fundamental for reproducibility. This means that there is a history for your code and analysis. Connecting Git and GitHub to RStudio is system dependent, a good resource for this process can be found in happygitwithr.com 
+
+
 ---
 ## The setup  
 Before you run these steps, make sure you have installed the following packages: `usethis`, `roxygen2`, `renv`, `here`. 
-1. create the package
+1. Create the package, add a license if you want to, and if feeling adventurous you can create a GitHub repo for it. The reference functions for the `usethis` package can be found [here](https://usethis.r-lib.org/reference/index.html) 
 ```r
 usethis::create_package("location where you want the package")
 ```
-
+2. Keep track of the packages that you use with the [`renv`](https://rstudio.github.io/renv/articles/renv.html) package. 
+```r
+renv::init()
+renv::snapshot()
+```
+3. Use the [`here`](https://here.r-lib.org/) package and avoid starting scripts with `setwd("your/specific/path/that/does/not/work/on/another/computer)`. I will be honest, I had a hard time understanding this package, until I ran across Jenny Richmond's post on [how to use the `here` package](http://jenrichmond.rbind.io/post/how-to-use-the-here-package/). It comes down to the difference in file paths between .R and .Rmd files.
+```r
+here::here()
+```
+4. Use `dplyr` or base R, to clean your data using R scripts. Any changes or deletions that happen in the spreadsheet are lost and forgotten in the realm of non-reproducible clicks. Clean your data with scripts so that you can always go back to the original and be certain of what changes have been made during the cleanup. [Broman & Wu, 2018](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) has great advice on working with spreadsheets.
+5. 
 ---
 ## The workflow
 
