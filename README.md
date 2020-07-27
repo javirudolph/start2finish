@@ -19,7 +19,7 @@ Perhaps this depends on the type of work you do, I'm not an expert and don't hav
 ---
 ## The setup  
 Before you run these steps, make sure you have installed the following packages: `usethis`, `roxygen2`, `renv`, `here`. 
-
+1. create the package
 ```r
 usethis::create_package("location where you want the package")
 ```
