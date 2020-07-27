@@ -36,8 +36,10 @@ renv::snapshot()
 ```r
 here::here()
 ```
-4. Use `dplyr` or base R, to clean your data using R scripts. Any changes or deletions that happen in the spreadsheet are lost and forgotten in the realm of non-reproducible clicks. Clean your data with scripts so that you can always go back to the original and be certain of what changes have been made during the cleanup. [Broman & Wu, 2018](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) has great advice on working with spreadsheets.
-5. Write your analysis and even your manuscript in `rmarkdown`. There are several packages out there that use `rmarkdown` and will help set up different types of articles. You can even create presentations with `rmarkdown`. For simplicity, if using `rmarkdown` and version control (Git and GitHub), you can avoid having several final.docx versions of your work. 
+4. Use `dplyr` or base R, to clean your data using R scripts. Any changes or deletions that happen in the spreadsheet are lost and forgotten in the realm of non-reproducible clicks. Clean your data with scripts so that you can always go back to the original and be certain of what changes have been made during the cleanup. [Broman & Wu, 2018](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) has great advice on working with spreadsheets.  
+5. Write your analysis and even your manuscript in `rmarkdown`. There are several packages out there that use `rmarkdown` and will help set up different types of articles. You can even create presentations with `rmarkdown`. For simplicity, if using `rmarkdown` and version control (Git and GitHub), you can avoid having several final.docx versions of your work.  
+
+
 ---
 ## The workflow
 
