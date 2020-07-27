@@ -41,7 +41,30 @@ here::here()
 
 
 ---
-## The workflow
+## The workflow  
+When I am starting a new project, I follow these steps:
+```r
+usethis::create_package("projects/mypackage")
+usethis::use_mit_license(name = "Your Name")
+usethis::use_git()
+usethis::use_github()
+usethis::use_readme_rmd()
+```  
+These steps will create my package, my GitHub repo and a README with `rmarkdown` so that I can include chunks of code and figures with it. After that setup I will start tracking my packages:
+```r
+renv::init()
+renv::snapshot()
+```  
+I will load some of the packages I know I will use in my work:
+```r
+usethis::use_package("dplyr", "ggplot", "fitdistrplus")
+```  
+And then save the changes with
+```r
+renv::snapshot()
+```  
+After the snapshot, you can commit your changes, and push them to your repo so that your lockfile (`revn.lock`) is updated. Any time that new packages are loaded, you repeat these steps. 
+
 
 ---
 ## Some really good resources
