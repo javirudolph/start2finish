@@ -5,7 +5,7 @@ start2finish is a project I created to share resources and provide a simple star
 When I created this, I had my mentors and peers in mind, hoping that this guide would take away the fear from creating an R package for their own projects.  
 
 ## R from start to finish: Organizing your dissertation work with a reproducibility mindset using R and RStudio
-#### [ESA 2020 abstract](https://eco.confex.com/eco/2020/meetingapp.cgi/Paper/86703) and [ESA poster](https://javirudolph.github.io/start2finish/images/rudolph_repro_poster_esa2020.pdf)
+### I presented this poster at the Ecological Society of America's Annual meeting: [ESA 2020 abstract](https://eco.confex.com/eco/2020/meetingapp.cgi/Paper/86703) and [ESA poster](https://javirudolph.github.io/start2finish/images/rudolph_repro_poster_esa2020.pdf)
 
 ---
 ## A quick introduction
@@ -14,7 +14,7 @@ When I created this, I had my mentors and peers in mind, hoping that this guide 
 ## The steps
 
 ---
-# Some really good resources
+## Some really good resources
 * Anna Krystalli ([@annakrystalli](https://twitter.com/annakrystalli)) and her talk [“Putting the R into Reproducible Research”](https://annakrystalli.me/talks/r-in-repro-research.html#1)
 * Sharla Gelfand ([@sharlagelfand](https://twitter.com/sharlagelfand)) and her [talk](https://sharla.party/talk/2020-01-01-rstudio-conf/) at rstudio::conf(2020)
 * Karthik Ram ([@_inundata](https://twitter.com/_inundata)), his [GitHub repo](https://github.com/karthik/rstudio2019) and [talk](https://rstudio.com/resources/rstudioconf-2019/a-guide-to-modern-reproducible-data-science-with-r-karthik-ram/) at rstudio::conf(2019)
