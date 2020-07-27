@@ -8,10 +8,20 @@ When I created this, I had my mentors and peers in mind, hoping that this guide 
 #### I presented this poster at the Ecological Society of America's Annual meeting: [ESA 2020 abstract](https://eco.confex.com/eco/2020/meetingapp.cgi/Paper/86703) and [ESA poster](https://javirudolph.github.io/start2finish/images/rudolph_repro_poster_esa2020.pdf)
 
 ---
-## A quick introduction
+## A quick introduction  
+Have you ever experienced running old code and having it break? Or found the code associated to a scientific article, and when trying to understand it or run it, realize it is almost impossible to figure out? 
+As an ecologist, and as many of us, I started my journey with R and data analysis as a self-directed adventure, first learning to code, and later realizing about the importance of reproducibility. Particularly associated with R programming, there is an overwhelming number of resources for reproducible research. This poster is meant to be a resource, a short guide and starting point for setting up a reproducible workflow in R.  
+Most of the workflow relies on the [`usethis`](https://usethis.r-lib.org/) package and you can find a short tutorial on building packages [here](https://javirudolph.github.io/RLadies-Gainesville-FL/20190429-Rudolph-packages/apr29presentation.html#1).
+
+### Why packages and not just projects?  
+Perhaps this depends on the type of work you do, I'm not an expert and don't have particularly strong opinions. However, a package makes you follow certain conventions to keep things organized. I am a fan of writing functions in an R package and writing detailed documentation using the ['roxygen2'](https://roxygen2.r-lib.org/) package. Building a package is a nice way to keep things together, organized, and clear. Although I am sure that you can also create a chaotic package as well. 
 
 ---
 ## The setup
+
+1. install.packages('usethis')
+  * usethis::create_package("path/where/you/want/the/project")
+
 
 ---
 ## The workflow
