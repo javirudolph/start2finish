@@ -11,7 +11,10 @@ When I created this, I had my mentors and peers in mind, hoping that this guide 
 ## A quick introduction
 
 ---
-## The steps
+## The setup
+
+---
+## The workflow
 
 ---
 ## Some really good resources
