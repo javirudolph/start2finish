@@ -82,3 +82,6 @@ This setup is intended for you to take the leap, and get started. There are a nu
 * [Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 * Don’t forget your research services or reproducibility librarian!
 
+---
+## Reproducible Papers  
+* Boettiger, C. (2018), From noise to knowledge: how randomness generates novel phenomena and reveals information. Ecol Lett, 21: 1255-1267. doi:10.1111/ele.13085
