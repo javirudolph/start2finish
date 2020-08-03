@@ -84,4 +84,4 @@ This setup is intended for you to take the leap, and get started. There are a nu
 
 ---
 ## Reproducible Papers  
-* Boettiger, C. (2018), From noise to knowledge: how randomness generates novel phenomena and reveals information. Ecol Lett, 21: 1255-1267. doi:10.1111/ele.13085
+* Boettiger, C. (2018), From noise to knowledge: how randomness generates novel phenomena and reveals information. Ecol Lett, 21: 1255-1267. [doi:10.1111/ele.13085](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.13085)
