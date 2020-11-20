@@ -80,6 +80,7 @@ This setup is intended for you to take the leap, and get started. There are a nu
 * Reproducibility in science – [guide](https://ropensci.github.io/reproducibility-guide/), from [rOpenSci](https://ropensci.org/)
 * Open Science Framework ([@OSFramework](https://twitter.com/OSFramework))
 * [Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
+* Jenny Bryan's [STAT545](https://stat545.com/)
 * Don’t forget your research services or reproducibility librarian!
 
 ---
